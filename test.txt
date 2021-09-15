@@ -1,0 +1,4 @@
+When you convert between a string and a byte slice (array),
+you get a brand new slice that contains the same
+bytes as the string, and vice
+versa.
