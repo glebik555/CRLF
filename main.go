@@ -91,7 +91,7 @@ func main() {
 	defer file.Close()
 
 	fmt.Println("\t \t \t __DECODING__")
-	file, err = os.Open("C:\\Users\\User\\GolandProjects\\CRLF\\rez.txt")
+	file, err = os.Open("rez.txt")
 	if err != nil {
 		log.Println(err.Error())
 	}
