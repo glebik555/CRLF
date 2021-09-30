@@ -1,9 +1,0 @@
-When you convert between a string and a byte slice (array),
-a
-b
-c
-d
-e
-f
-g
-a
