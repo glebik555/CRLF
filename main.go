@@ -19,10 +19,10 @@ func main() {
 
 	message := makeMessage(100)
 
-	f := openFile("texts\\test.txt")
+	f := openFile("texts\\test.txt") // .txt || .cpp || .docx
 	defer f.Close()
 
-	file := createFile("texts\\rez.txt")
+	file := createFile("texts\\rez.txt") // .txt || .cpp || .docx
 
 	logrus.Debug("Injecting message into container")
 	injectProcessing(f, message, file)
@@ -32,7 +32,7 @@ func main() {
 	fmt.Println("\t \t \t __DECODING__")
 	logrus.Debug("Start extracting")
 
-	file = openFile("texts\\rez.txt")
+	file = openFile("texts\\rez.txt") // .txt || .cpp || .docx
 	logrus.Debug("Extracting message from container")
 	extractProcessing(file)
 
