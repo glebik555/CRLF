@@ -7,10 +7,17 @@ The method is based on changing the end-of-line markers CR/LF, due to which the 
 
 # Running
 ```
-go run .\main.go .\func.go
+go build -o .
 ```
+```
+CRLF.exe
+```
+
 
 # Running debug mode
 ```
-go run .\main.go .\func.go --dbg
+go build -o .
+```
+```
+CRLF.exe --dbg
 ```
